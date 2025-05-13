@@ -1,0 +1,244 @@
+:root {
+  /* Cores de fundo */
+  --background-default: #F5F4F0;
+  --border-primary: #D9D9D9;
+
+  /* Cores de texto */
+  --text-primary: #1B1B1B;
+  --text-secondary: #333333;
+  --text-tertiary: #696969;
+  --text-headline: #E1624F;
+
+  /* Cores de destaque (Accent) */
+  --accent-blue: #0C51A7;
+  --accent-orange: #E95E10;
+  --accent-pink: #E5245E;
+  --accent-purple: #591B98;
+
+
+  /* Font family geral */
+  --font-family: 'Open Sans', sans-serif;
+
+  /* Tamanhos das fontes (em px, convertidos para rem) */
+  --font-h1-size: 2.25rem;   /* 36px / 16 = 2.25rem */
+  --font-h2-size: 2rem;      /* 32px */
+  --font-h3-size: 1.75rem;   /* 28px */
+  --font-headline-size: 1rem;/* 16px */
+  --font-paragraph-size: 1rem;/* 16px */
+  --font-subtitle-size: 1rem; /* 16px */
+
+  /* Pesos da fonte (font-weight) */
+  --font-bold: 700;
+  --font-regular: 400;
+  --font-italic: 400; /* Apenas para usar com font-style: italic*/
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+html, body {
+  width: auto;
+  height: auto;
+  justify-content: center;
+  display: flex;
+}
+
+body {
+  background-color: var(--background-default);
+  font-family: var(--font-family);
+  color: var(--text-primary);
+  
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 1280px;
+  height: 3279px
+}
+
+.container {
+  display: flex;
+  width: 1120px;
+  height: auto;
+  margin: 76px 54px 149px 106px;
+  
+  gap: 40px;
+  
+}
+
+main {
+  width: auto;
+  max-height: auto;
+  
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.title-page{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 79px;
+  
+}
+
+.headline {
+  font-size: var(--font-headline-size);
+  font-weight: var(--font-bold);
+  color: var(--text-headline);
+  height: 22px;
+  margin: 0;
+}
+
+.title-h1{
+  font-size: var(--font-h1-size);
+  font-weight: var(--font-bold);
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.Image_01{
+  width: 1120px;
+  height: 660px;
+  border-radius: 28px;
+  margin: 0 0 24px 0;
+}
+
+.description {
+  font-style: italic;
+  font-size: var(--font-subtitle-size);
+  font-weight: var(--font-italic);
+  text-align: center;
+}
+
+.content-list{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 2020px;
+}
+
+.divisor {
+  margin-top: 40px;
+}
+
+.divisor2 {
+  margin: 40px 0 40px 0;
+}
+
+
+.title-list{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 164px;
+  margin: 64px 0 64px 0;
+  padding: 0;
+  gap: 8px;
+}
+
+.title-h2 {
+  font-size: var(--font-h2-size);
+  font-weight: var(--font-bold);
+  color: var(--text-primary);
+  margin: 0;
+  height: 44px;
+}
+
+.Image_02 {
+  width: 1120px;
+  height: 350px;
+  border-radius: 28px;
+  
+}
+
+.list{ 
+  display: flex;
+  flex-direction: column;
+  width: 1120px;
+  height: auto;
+  list-style: none;
+  justify-content: space-between;
+  gap: 48px;
+}
+
+.card-travel{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.content-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  gap: 4px;
+}
+
+.title-h3 {
+  font-size: var(--font-h3-size);
+  font-weight: var(--font-bold);
+  color: var(--text-primary);
+  margin: 0;
+  height: 38px;
+}
+
+.Image_02, .Image_03, .Image_04 {
+  display: flex;
+  width: 1120px;
+  height: 350px;
+  border-radius: 28px;
+  object-fit: cover;
+  position: relative;
+  object-position: bottom right;
+
+}
+
+.description-card {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  font-size: var(--font-paragraph-size);
+  font-weight: var(--font-regular);
+  
+}
+
+.description-botton{
+  
+  display: flex;
+  height: 66px;
+}
+
+.descrip-title {
+  color: var(--text-primary);
+}
+
+.descript-list1 {
+  color: var(--accent-blue);
+  font-size: var(--font-paragraph-size);
+  font-weight: var(--font-bold);
+}
+
+.descript-list2 {
+  color: var(--accent-pink);
+  font-size: var(--font-paragraph-size);
+  font-weight: var(--font-bold);
+}
+
+.descript-list3 {
+  color: var(--accent-orange);
+  font-size: var(--font-paragraph-size);
+  font-weight: var(--font-bold);
+}
