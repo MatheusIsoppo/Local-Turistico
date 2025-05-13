@@ -4,6 +4,10 @@
 O Primeiro desafio da parte Javascript da trilha Full-Stack, promovido pela Rocketseat para ensino de tecnologias WEB.  <br/>
 </p>
 
+## Projeto
+
+- [Visita o projeto online!](https://matheusisoppo.github.io/Local-Turistico/)
+
 <p align="center">
   <img alt="License" src="assets/Sobre.png">
 </p>
